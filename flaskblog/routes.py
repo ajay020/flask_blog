@@ -1,5 +1,5 @@
-from flaskblog import app
 from flask import render_template,url_for,flash,redirect
+from flaskblog import app
 from flaskblog.forms import RegistraionForm,LoginForm
 from flaskblog.models import User,Post
 
